@@ -2,7 +2,7 @@
 margin-top: 20px;
 margin-left: 135px;
 background-color: #222;
-width: 375px;
+width: 360px;
 height: 114px;
 border-radius: 3px;
 -webkit-border-radius: 3px;
@@ -21,7 +21,7 @@ margin-left: 6px;
 }
 .counter_item {
 /*width: 30px;*/
-width: 73px;
+width: 70px;
 height: 110px;
 background: transparent url(../img/counter_back_big.gif) no-repeat;
 overflow: hidden;

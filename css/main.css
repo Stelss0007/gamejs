@@ -32,7 +32,7 @@ overflow: hidden;
 }
 .counter_item .front {
 background: transparent url(../img/counter_front.png) no-repeat;
-position: fixed;
+/*position: fixed;*/
 z-index: 10;
 }
 .counter_item .digit_colon {
@@ -132,3 +132,4 @@ a.button:not(.disabled):active {
     position: relative;
     top: 6px;
 }
+

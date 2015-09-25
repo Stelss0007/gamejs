@@ -6,6 +6,8 @@ var slotsCount = 5;
 var slotsMinEquals = 3;
 //Количество элементов в слоте барабана (например от 0 до 6 или от 0 до 10)
 var slotItemsCount = 6;
+//Высота элемента слота (высота слота)
+var elementHeight = 110;//55;
 //Переменная с результатами для слотов
 var slots = [];
 
@@ -22,7 +24,6 @@ var sndStart = new Audio(),
     sndLose = new Audio()
     ;
     
-
 //Пути до звуков    
     sndIntro.src = 'sound/intro-1.mp3';
     sndIntro.loop = true;
@@ -151,7 +152,7 @@ function finishedSlot() {
 function startSlot(el, value, interval) {
     var timerVar = 0;
     var itemNumber = 0;
-    var elementHeight = 55;
+    
     var elementCount = value ? value : slotItemsCount;
 
     var interval = (interval) ? interval :  60;
